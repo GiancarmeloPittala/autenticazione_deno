@@ -5,6 +5,9 @@
   "runtimeOptions": [
     "--allow-net",
     "--allow-read",
-    "--allow-env"
+    "--allow-env",
+    "--unstable",
+    "--allow-write",
+    "--allow-plugin"
   ]
 }

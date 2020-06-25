@@ -4,7 +4,7 @@ import userController from '../controllers/userController.ts';
 export const router = new Router();
 
 router 
-  .get('/user/me', userController.login)
+  .get('/user/me', userController.me)
   .post('/user/register', userController.register)
   .post('/user/login', userController.login)
   

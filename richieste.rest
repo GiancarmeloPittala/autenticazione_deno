@@ -2,6 +2,21 @@ POST http://localhost/user/register HTTP/1.1
 Content-Type: application/json
 
 {
-  "email" : "pippo",
+  "email" : "pippo1",
   "pass" : "nn"
 }
+
+###
+
+POST http://localhost/user/login HTTP/1.1
+Content-Type: application/json
+
+{
+  "email" : "pippo1",
+  "pass" : "nn"
+}
+
+###
+
+GET http://localhost/user/me HTTP/1.1
+Authorization: Basic eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ7XCJpZFwiOjl9IiwiZXhwIjoxNTkzMDk3NTE2NTgwfQ.GhE052UbroxelNRJny-qh81nMlqbPi_oXdQLXPaBa1Y
