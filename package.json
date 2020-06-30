@@ -1,0 +1,20 @@
+{
+  "name": "autenticazione_v1",
+  "version": "1.0.0",
+  "description": "autenticazione con deno",
+  "main": "app.ts",
+  "scripts": {
+    "start" : "deno run --allow-net --allow-read --allow-env --unstable --allow-write --allow-plugin app.ts --port=${PORT}",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiancarmeloPittala/autenticazione_deno.git"
+  },
+  "author": "Giancarmelo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GiancarmeloPittala/autenticazione_deno/issues"
+  },
+  "homepage": "https://github.com/GiancarmeloPittala/autenticazione_deno#readme"
+}
