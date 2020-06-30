@@ -89,11 +89,13 @@ const userController = {
       let id = payload?.iss || "{}";
       id = JSON.parse(id).id;
 
-      const user = await User.select("id","name","email","createdAt","updateAt").find(id);
+      const user = await User.select("id","name","email","created_at","updated_at").find(id);
+ 
 
       ctx.response.status = 203,
       ctx.response.body = JSON.stringify({user})
     } catch (error) {
+      console.log(error)
       return errorState(error, ctx.response);
     }
 

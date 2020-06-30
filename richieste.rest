@@ -19,4 +19,4 @@ Content-Type: application/json
 ###
 
 GET http://localhost/user/me HTTP/1.1
-Authorization: Basic eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ7XCJpZFwiOjl9IiwiZXhwIjoxNTkzMDk3NTE2NTgwfQ.GhE052UbroxelNRJny-qh81nMlqbPi_oXdQLXPaBa1Y
+Authorization: Basic eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ7XCJpZFwiOjl9IiwiZXhwIjoxNTkzNTU4MzEwMDMxfQ.fo_Y5VuETcgRp2FPvBZlM_7h99mlzPdQPexPEo8qnO4

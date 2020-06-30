@@ -24,7 +24,7 @@ class User extends Model {
       type :DataTypes.STRING,
       length: 60,
       allowNull: false
-    }
+    } 
   };
 
   static defaults = {
